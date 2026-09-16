@@ -1,0 +1,385 @@
+<div class="country-page">
+
+  <%# =========================
+      国ごとの背景画像
+  ========================== %>
+
+  <%
+  country_images = {
+    "ニュージーランド" => "newzealand.jpg",
+    "ベトナム" => "vietnam.jpg",
+    "カンボジア" => "cambodia.jpg",
+    "マレーシア" => "malaysia.jpg",
+    "韓国" => "korea.jpg",
+    "中国" => "china.jpg",
+    "イギリス" => "uk.jpg",
+    "ノルウェー" => "norway.jpg",
+    "イタリア" => "italy.jpg",
+    "タイ" => "thailand.jpg",
+    "インドネシア" => "indonesia.jpg"
+  }
+
+  country_image = country_images[@country.country]
+%>
+
+  <%# =========================
+      国名・メイン写真
+  ========================== %>
+
+  <section
+    class="country-header"
+    style="background-image: url('<%= asset_path(country_image) %>');"
+  >
+
+
+    <div class="country-title-card">
+
+      <p class="country-mini-title">
+        — TRAVEL GUIDE —
+      </p>
+
+      <h1 class="country-title">
+        <%= @country.country %>
+      </h1>
+
+      <div class="country-title-line"></div>
+
+      <p class="country-header-text">
+        旅に出る前に知っておきたいこと
+      </p>
+
+    </div>
+
+
+    <div class="country-photo-doodle">
+      Good<br>
+      Trip! ✈︎
+    </div>
+
+  </section>
+
+
+  <%# =========================
+      この国について
+  ========================== %>
+
+  <section class="country-about">
+
+    <h2 class="country-section-title">
+      🌏 この国について
+    </h2>
+
+    <p class="country-description">
+      <%= @country.description %>
+    </p>
+
+  </section>
+
+
+  <%# =========================
+      費用・ビザ・準備・便利なもの
+  ========================== %>
+
+  <div class="country-card-grid">
+
+    <section class="country-card country-card-price">
+
+      <div class="country-card-icon">
+        💰
+      </div>
+
+      <h2>費用</h2>
+
+      <p>
+        <%= @country.price %>
+      </p>
+
+    </section>
+
+
+    <section class="country-card country-card-visa">
+
+      <div class="country-card-icon">
+        🛂
+      </div>
+
+      <h2>
+        ビザ・入国について
+      </h2>
+
+      <div class="country-card-text">
+        <%= simple_format(@country.visa_timing) %>
+      </div>
+
+    </section>
+
+
+    <section class="country-card country-card-preparation">
+
+      <div class="country-card-icon">
+        🧳
+      </div>
+
+      <h2>
+        渡航前の準備
+      </h2>
+
+      <div class="country-card-text">
+        <%= simple_format(@country.preparation) %>
+      </div>
+
+    </section>
+
+
+    <section class="country-card country-card-items">
+
+      <div class="country-card-icon">
+        🎒
+      </div>
+
+      <h2>
+        あると便利なもの
+      </h2>
+
+      <p>
+        <%= @country.useful_items %>
+      </p>
+
+    </section>
+
+  </div>
+
+
+  <%# =========================
+      現地の交通・注意点
+  ========================== %>
+
+  <div class="country-wide-grid">
+
+    <section class="country-wide-card country-transport">
+
+      <div class="country-wide-title">
+
+        <span class="country-wide-icon">
+          🚃
+        </span>
+
+        <h2>
+          現地の交通
+        </h2>
+
+      </div>
+
+      <div class="country-wide-text">
+        <%= simple_format(@country.transportation) %>
+      </div>
+
+    </section>
+
+
+    <section class="country-wide-card country-cautions">
+
+      <div class="country-wide-title">
+
+        <span class="country-wide-icon">
+          ⚠️
+        </span>
+
+        <h2>
+          注意点
+        </h2>
+
+      </div>
+
+      <div class="country-wide-text">
+        <%= simple_format(@country.cautions) %>
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <%# =========================
+      参考リンク
+  ========================== %>
+
+  <% if @country.link.present? %>
+
+    <section class="country-link-area">
+
+      <p class="country-link-mini">
+        OFFICIAL INFORMATION
+      </p>
+
+      <h2>
+        🔗 参考リンク
+      </h2>
+
+
+      <p>
+
+        <% if @country.country == "ニュージーランド" %>
+
+          ビザについては、
+
+          <%= link_to "ニュージーランド移民局の公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "ベトナム" %>
+
+          ビザについては、
+
+          <%= link_to "ベトナムのe-Visa公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "カンボジア" %>
+
+          ビザについては、
+
+          <%= link_to "カンボジアのe-Visa公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "マレーシア" %>
+
+          入国・ビザについては、
+
+          <%= link_to "マレーシアの公式情報",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "韓国" %>
+
+          入国・ビザについては、
+
+          <%= link_to "韓国外務省の公式情報",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "中国" %>
+
+          入国カードについては、
+
+          <%= link_to "中国の入国カード申請公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "イギリス" %>
+
+          ETAの申請については、
+
+          <%= link_to "イギリス政府の公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "ノルウェー" %>
+
+          入国・ビザについては、
+
+          <%= link_to "ノルウェーの査証・出入国に関する公式情報",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "イタリア" %>
+
+          ビザ・入国については、
+
+          <%= link_to "イタリア外務・国際協力省の公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "タイ" %>
+
+          入国カードの登録については、
+
+          <%= link_to "タイのTDAC公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+
+        <% elsif @country.country == "インドネシア" %>
+
+          ビザについては、
+
+          <%= link_to "インドネシアのE-Visa公式サイト",
+              @country.link,
+              target: "_blank",
+              rel: "noopener",
+              class: "country-official-link" %>
+
+          で確認できます。
+
+        <% end %>
+
+      </p>
+
+    </section>
+
+  <% end %>
+
+
+  <%# =========================
+      戻るボタン
+  ========================== %>
+
+  <div class="country-back-area">
+
+    <%= link_to "← 診断結果に戻る",
+        :back,
+        class: "country-back-button" %>
+
+  </div>
+
+</div>
