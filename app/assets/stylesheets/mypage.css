@@ -1,4 +1,4 @@
-/* = マイページ全体*/
+/*マイページ全体*/
 
 .mypage {
   width: 100%;
@@ -10,10 +10,7 @@
   color: #111;
 }
 
-
-/* =========================
-   タイトル
-========================= */
+/* タイトル */
 
 .mypage-heading {
   text-align: center;
@@ -35,16 +32,12 @@
   font-weight: 800;
 }
 
-
 .mypage-subtitle {
   font-size: 16px;
   line-height: 1.8;
 }
 
-
-/* =========================
-   プロフィールカード
-========================= */
+/* プロフィールカード*/
 
 .profile-card {
   width: 90%;
@@ -71,7 +64,6 @@
   font-size: 30px;
 }
 
-
 .profile-card-title h2 {
   margin: 0;
 
@@ -81,14 +73,10 @@
   font-weight: 700;
 }
 
-
-/* =========================
-   プロフィールの各項目
-========================= */
+/* プロフィールの各項目 */
 
 .profile-item {
   padding: 18px 0;
-
   border-bottom: 2px dashed #ddd;
 }
 
@@ -105,25 +93,18 @@
 
 .profile-value {
   font-size: 17px;
-
   line-height: 1.7;
 }
 
-
 .profile-empty {
   color: #999;
-
   font-size: 14px;
 }
 
-
-/* =========================
-   編集ボタン
-========================= */
+/* 編集ボタン */
 
 .profile-edit-area {
   margin-top: 30px;
-
   text-align: center;
 }
 
@@ -150,32 +131,23 @@
   transition: 0.2s;
 }
 
-
 .profile-edit-button:hover {
   transform: translateY(-3px);
-
   box-shadow: 4px 4px 0 #111;
 }
 
-
-/* =========================
-   投稿一覧エリア
-========================= */
+/* 投稿一覧エリア */
 
 .mypage-posts {
   width: 95%;
   max-width: 1100px;
-
   margin: 90px auto 0;
 }
 
-
 .mypage-posts-heading {
   text-align: center;
-
   margin-bottom: 40px;
 }
-
 
 .mypage-posts-mini {
   margin-bottom: 5px;
@@ -188,13 +160,11 @@
   letter-spacing: 2px;
 }
 
-
 .mypage-posts-heading h2 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 36px;
   font-weight: 800;
 }
-
 
 /* 投稿カードを3列 */
 
@@ -232,8 +202,7 @@
   border-bottom: 3px solid #111;
 }
 
-/* 写真なし */
-
+/* 写真なしの場合 */
 .mypage-no-image {
   width: 100%;
   height: 220px;
@@ -362,17 +331,7 @@
   box-shadow: 3px 3px 0 #111;
 }
 
-
-/* タブレット*/
-
-@media screen and (max-width: 900px) {
-  .mypage-post-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
-
-/* スマホ*/
+/* スマホ版　*/
 
 @media screen and (max-width: 600px) {
   .mypage {

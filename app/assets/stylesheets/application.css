@@ -47,27 +47,19 @@ h3,
 }
 
 
-/* =========================
-   ヘッダー
-========================= */
+/* ヘッダー*/
 
 header {
   width: calc(100% - 20px);
   height: 130px;
-
   margin: 10px auto;
-
   background-color: #A1F7DC;
-
   border: 4px solid #111;
   border-radius: 60px;
-
   padding: 10px 20px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   font-weight: bold;
 }
 
@@ -83,10 +75,8 @@ header a {
 header h1 a {
   font-size: 60px;
   font-weight: bold;
-
   color: white;
   text-decoration: none;
-  
  -webkit-text-stroke: 0.2px black;
   transition: 0.3s;
 
@@ -107,32 +97,22 @@ header h1 a:hover {
   gap: 20px;
 }
 
-
-/* =========================
-   登録・ログインの丸ボタン
-========================= */
+/* 登録・ログインの丸ボタン */
 
 .btn-circle {
   width: 110px;
   height: 110px;
-
   border-radius: 50%;
-
   border: 2px solid #111;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   text-align: center;
   text-decoration: none;
-
   font-size: 22px;
   font-weight: bold;
-
   transition: 0.3s;
 }
-
 
 /* 登録する */
 
@@ -143,7 +123,6 @@ header h1 a:hover {
   -webkit-text-stroke: 1px #111;
 }
 
-
 /* ログイン */
 
 .login-btn {
@@ -153,60 +132,42 @@ header h1 a:hover {
   -webkit-text-stroke: 1px #111;
 }
 
-
 /* ホバー */
 
 .btn-circle:hover {
   transform: rotate(20deg);
 }
 
-
-/* =========================
-   footer
-========================= */
+/* フッター　*/
 
 
 footer {
   width: 100%;
   height: 100px;
-
   background-color: #A1F7DC;
-
   overflow: hidden;
-
   display: flex;
   align-items: center;
 }
 
-
-/* =========================
-   footer 横スクロール
-========================= */
+/* フッター 横スクロール */
 
 .footer-marquee {
-  
   width: 100%;
   overflow: hidden;
 }
 
 .footer-track {
   display: flex;
-
   width: max-content;
-
   white-space: nowrap;
-
   animation: footer-scroll 15s linear infinite;
 }
 
 .footer-track span {
   font-size: 60px;
   font-weight: bold;
-
   color: white;
-
- 
-
   flex-shrink: 0;
 }
 
@@ -220,9 +181,7 @@ footer {
   }
 }
 
-/* =========================
-   新規投稿ボタン
-========================= */
+/* 新規投稿ボタン */
 
 .new-post-button {
   width: 150px;
@@ -253,10 +212,7 @@ footer {
   transform: rotate(20deg);
 }
 
-
-/* =========================
-   About
-========================= */
+/* About */
 
 .about {
   width: 98%;
@@ -268,19 +224,6 @@ footer {
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-}
-
-/* 写真を少し暗くして文字を見やすくする */
-
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.08);
-  z-index: 1;
 }
 
 /* Aboutの文章 */
@@ -326,9 +269,7 @@ footer {
   z-index: 4;
 }
 
-/* =========================
-   About 下の tabi-palette
-========================= */
+/* About 下の tabi-palette*/
 
 .about-logo-flow {
   position: absolute;
@@ -377,28 +318,19 @@ footer {
   }
 }
 
-/* =========================
-   旅先診断
-========================= */
+/* 旅先診断 */
 
 .diagnosis-section {
   width: 98%;
   height: 190px;
-
   margin: 30px auto 30px;
-
   position: relative;
-
   border: 3px solid #111;
   border-radius: 45px;
-
   overflow: visible;
 }
 
-
-/* =========================
-   背景画像
-========================= */
+/*背景画像*/
 
 .diagnosis-background {
   width: 100%;
@@ -417,9 +349,7 @@ footer {
   display: block;
 }
 
-/* =========================
-   診断する丸ボタン
-========================= */
+/* 診断する丸ボタン */
 
 .diagnosis-button {
   position: absolute;
@@ -456,7 +386,6 @@ footer {
 .diagnosis-text {
   left: 470px;
   top: 50%;
-
   transform: translateY(-50%);
 }
 
@@ -464,7 +393,6 @@ footer {
 .post-text {
   left: 1030px;
   top: 50%;
-
   transform: translateY(-50%);
 }
 
@@ -472,21 +400,16 @@ footer {
 .diagnosis-text,
 .post-text {
   position: absolute;
-
   color: white;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.8;
-
   text-shadow:
     1px 1px 3px rgba(0, 0, 0, 0.6);
-
   z-index: 6;
 }
 
-/* =========================
-   新規投稿ボタン
-========================= */
+/*新規投稿ボタン */
 
 .new-post-circle {
   position: absolute;
@@ -542,25 +465,19 @@ footer {
   margin-left: 3px;
 }
 
-/* =========================
-   右下の飛行機
-========================= */
+/*右下に飛行機マーク*/
 
 .test-plane {
   position: absolute;
-
   right: -10px;
   bottom: -80px;
-
   width: 200px;
   height: auto;
   transform: rotate(15deg);
   z-index: 6;
 }
 
-/* =========================
-   投稿検索
-========================= */
+/* 投稿検索 */
 
 .search-section {
   width: 100%;
@@ -579,9 +496,7 @@ footer {
 
   box-sizing: border-box;
 }
-/* =========================
-   投稿検索 ＋ タグ検索の共通背景
-========================= */
+/*投稿検索 ＋ タグ検索の共通背景*/
 
 .search-tag-section {
   width: 98%;
@@ -645,9 +560,7 @@ footer {
   border-color: #f1846e;
 }
 
-/* =========================
-   みんなの投稿をさがす
-========================= */
+/* みんなの投稿をさがす */
 
 .post-search-button {
   position: absolute;
@@ -685,9 +598,7 @@ footer {
   transform: rotate(10deg) scale(1.05);
 }
 
-/* =========================
-   タグ検索
-========================= */
+/* タグ検索文字 */
 
 .tag-section {
   width: 100%;
@@ -708,10 +619,7 @@ footer {
   overflow: visible;
 }
 
-
-/* =========================
-   左の丸
-========================= */
+/* タグ検索　丸ボタン*/
 
 .tag-title-circle {
   width: 190px;
@@ -742,18 +650,14 @@ footer {
   transform: rotate(10deg) scale(1.05);
 }
 
-/* =========================
-   タグ全体
-========================= */
-
+/* タグ全体*/
 .tag-area {
   flex: 1;
 }
 
+/* タグの文字 */
 
-/* タイトル */
-
-.tag-search-title {
+.tag-search-title { 
   display: inline-block;
 
   margin-bottom: 18px;
@@ -765,18 +669,15 @@ footer {
   border: 3px solid #111;
   border-radius: 30px;
 
-  font-size: 18px;
+  font-size: 20px;
 }
 
-
-/* =========================
-   タグ一覧
-========================= */
+/* タグ一覧 */
 
 .tags {
   display: grid;
   position: absolute;
-  left: 160px;   /* ← 左右 */
+  left: 160px;  
   top: 110px; 
   grid-template-columns: repeat(7, auto);
 
@@ -787,16 +688,12 @@ footer {
   justify-content: start;
 }
 
-
 /* 本物のチェックボックスを隠す */
-
 .tag-checkbox {
   display: none;
 }
 
-
 /* タグの見た目 */
-
 .tag-button {
   display: inline-flex;
   align-items: center;
@@ -820,7 +717,7 @@ footer {
   transition: 0.2s;
 }
 
-/* hover */
+/* ホバー */
 
 .tag-button:hover {
   background-color: #f1846e;
@@ -835,9 +732,7 @@ footer {
   transform: scale(1.05);
 }
 
-/* =========================
-   タグ検索ボタン
-========================= */
+/* タグ検索ボタン */
 
 .tag-submit {
   padding: 10px 25px;
@@ -869,16 +764,13 @@ footer {
   z-index: 2;
 }
 
-/* =========================
-   みんなの投稿
-========================= */
+/* みんなの投稿 */
 
 .post-cards {
   display: flex;
   justify-content: center;
   gap: 25px;
   flex-wrap: wrap;
-
 }
 
 .post-card {

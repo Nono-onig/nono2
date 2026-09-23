@@ -1,6 +1,4 @@
-/* =========================
-   新規投稿ページ
-========================= */
+/*　新規投稿ページ*/
 
 .new-post-page {
   width: 100%;
@@ -14,10 +12,7 @@
   color: #111;
 }
 
-
-/* =========================
-   タイトル
-========================= */
+/* タイトル */
 
 .new-post-heading {
   text-align: center;
@@ -44,10 +39,7 @@
   line-height: 1.8;
 }
 
-
-/* =========================
-   投稿フォーム
-========================= */
+/* 投稿フォーム */
 
 .new-post-card {
   width: 90%;
@@ -65,10 +57,7 @@
   box-shadow: 9px 9px 0 #A1F7DC;
 }
 
-
-/* =========================
-   各項目
-========================= */
+/* 各項目 */
 
 .post-field {
   margin-bottom: 32px;
@@ -85,10 +74,7 @@
   font-weight: 800;
 }
 
-
-/* =========================
-   入力欄
-========================= */
+/* 入力欄*/
 
 .post-input,
 .post-textarea {
@@ -133,10 +119,7 @@ select.post-input {
   min-height: 80px;
 }
 
-
-/* =========================
-   写真
-========================= */
+/* 写真 */
 
 .image-upload-box {
   padding: 30px 25px;
@@ -159,10 +142,7 @@ select.post-input {
   font-family: "Zen Maru Gothic", sans-serif;
 }
 
-
-/* =========================
-   タグ
-========================= */
+/* タグ*/
 
 .post-tag-list {
   display: flex;
@@ -209,10 +189,7 @@ select.post-input {
   transform: translateY(-2px);
 }
 
-
-/* =========================
-   投稿ボタン
-========================= */
+/* 投稿ボタン*/
 
 .post-submit-area {
   margin-top: 50px;
@@ -245,10 +222,7 @@ select.post-input {
   box-shadow: 5px 5px 0 #111;
 }
 
-
-/* =========================
-   新しいタグ追加
-========================= */
+/* 新しいタグ追加 */
 
 .add-tag-card {
   width: 90%;
@@ -320,14 +294,10 @@ select.post-input {
   box-shadow: 3px 3px 0 #111;
 }
 
-
-/* =========================
-   戻る
-========================= */
+/* 戻る　*/
 
 .new-post-back {
   margin-top: 45px;
-
   text-align: center;
 }
 
@@ -352,14 +322,10 @@ select.post-input {
 
 .new-post-back-button:hover {
   background-color: #A1F7DC;
-
   transform: translateY(-2px);
 }
 
-
-/* =========================
-   スマホ
-========================= */
+/* スマホ*/
 
 @media screen and (max-width: 700px) {
 

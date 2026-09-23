@@ -1,6 +1,4 @@
-/* =========================
-   診断ページ全体
-========================= */
+/* 診断ページ全体 */
 
 .test-page {
   width: 100%;
@@ -13,14 +11,7 @@
   font-family: "Zen Maru Gothic", sans-serif;
 }
 
-
-/* =========================
-   診断ページ ヘッダー
-========================= */
-
-/* =========================
-   Q1〜Q7すべてを包む空背景
-========================= */
+/* Q1〜Q7すべてを包む空背景 */
 
 .test-header {
   width: 96%;
@@ -39,8 +30,6 @@
 
   /* 高さはQ1〜Q7に合わせて自動で伸びる */
   height: auto;
-
-  /* 前に入れていたflex系は使わない */
   display: block;
 }
 
@@ -81,11 +70,9 @@
   top: 200px;
   right: -50px;
   bottom: 50px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   gap: 500px;
 }
 
@@ -101,9 +88,7 @@
   transform: rotate(90deg);
 }
 
-/* =========================
-   質問カード
-========================= */
+/* 質問カード */
 
 .question-card {
   width: 82%;
@@ -118,10 +103,7 @@
   border-radius: 40px;
 }
 
-
-/* =========================
-   質問タイトル
-========================= */
+/* 質問タイトル*/
 
 .question-title {
   display: inline-block;
@@ -140,11 +122,7 @@
   font-weight: 700;
 }
 
-
-/* =========================
-   選択肢全体
-========================= */
-
+/* 選択肢全体 */
 
 .choice {
   position: relative;
@@ -198,15 +176,11 @@
   transform: translateX(8px);
 }
 
-
-/* =========================
-   診断するボタン
-========================= */
+/* 診断するボタン */
 
 .test-submit {
   display: flex;
   justify-content: center;
-
   margin: 70px 0 50px;
 }
 
@@ -233,10 +207,7 @@
   transform: rotate(10deg) scale(1.05);
 }
 
-
-/* =========================
-   トップページに戻る
-========================= */
+/* トップページに戻る */
 
 .back-link {
   position: fixed;
@@ -280,9 +251,7 @@
   transform: rotate(-8deg) scale(1.05);
 }
 
-/* =========================
-   スマホ対応
-========================= */
+/* スマホ版 */
 
 @media screen and (max-width: 768px) {
 
@@ -316,6 +285,7 @@
 
 }
 
+/* 女の子イラスト */
 .art-girl {
   position: absolute;
   right: 1000px;

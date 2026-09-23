@@ -1,6 +1,4 @@
-/* =========================
-   投稿詳細ページ
-========================= */
+/* 投稿詳細ページ */
 
 .tweet-show-page {
   width: 100%;
@@ -17,47 +15,34 @@
   color: #111;
 }
 
-
-/* =========================
-   タイトル
-========================= */
+/* タイトル */
 
 .tweet-show-heading {
   text-align: center;
-
   margin-bottom: 40px;
 }
 
 .tweet-show-mini-title {
   margin-bottom: 5px;
-
   font-family: "Fredoka", sans-serif;
-
   font-size: 23px;
   font-weight: 700;
-
   letter-spacing: 2px;
 }
 
 .tweet-show-heading h1 {
   margin-bottom: 8px;
-
   font-family: "M PLUS Rounded 1c", sans-serif;
-
   font-size: 48px;
   font-weight: 800;
 }
 
 .tweet-show-location {
   font-size: 17px;
-
   font-weight: 700;
 }
 
-
-/* =========================
-   メインカード
-========================= */
+/* メインカード */
 
 .tweet-show-card {
   width: 90%;
@@ -77,48 +62,33 @@
   box-shadow: 10px 10px 0 #A1F7DC;
 }
 
-
-/* =========================
-   写真
-========================= */
+/* 写真 */
 
 .tweet-show-image-area {
   width: 100%;
-
   overflow: hidden;
-
   border: 3px solid #111;
   border-radius: 25px;
-
   box-sizing: border-box;
 }
 
 .tweet-show-image {
   width: 100%;
   max-height: 520px;
-
   object-fit: cover;
-
   display: block;
 }
-
 
 /* 写真説明 */
 
 .tweet-picture-caption {
   margin-top: 12px;
-
   text-align: center;
-
   font-size: 14px;
-
   color: #666;
 }
 
-
-/* =========================
-   基本情報
-========================= */
+/* 基本情報*/
 
 .tweet-show-info {
   display: grid;
@@ -141,35 +111,24 @@
 
 .tweet-show-label {
   margin-bottom: 6px;
-
   font-family: "M PLUS Rounded 1c", sans-serif;
-
   font-size: 14px;
   font-weight: 800;
-
   color: #666;
 }
 
 .tweet-show-value {
   font-size: 17px;
-
   font-weight: 700;
-
   line-height: 1.6;
 }
 
-
-/* =========================
-   コメント・おすすめ
-========================= */
+/* コメント・おすすめ */
 
 .tweet-show-text-card {
   margin-top: 30px;
-
   padding: 25px 28px;
-
   background-color: #fffaf1;
-
   border: 2px solid #111;
   border-radius: 25px;
 }
@@ -180,30 +139,21 @@
 
 .tweet-show-text-title {
   margin-bottom: 12px;
-
   font-family: "M PLUS Rounded 1c", sans-serif;
-
   font-size: 19px;
   font-weight: 800;
 }
 
 .tweet-show-text {
   font-size: 16px;
-
   line-height: 1.9;
 }
-
-
-/* simple_format の p の余白 */
 
 .tweet-show-text p {
   margin: 0;
 }
 
-
-/* =========================
-   タグ
-========================= */
+/* タグ */
 
 .tweet-show-tags {
   margin-top: 30px;
@@ -235,10 +185,7 @@
   font-weight: 700;
 }
 
-
-/* =========================
-   投稿者用 編集・削除
-========================= */
+/* 投稿者用 編集・削除*/
 
 .tweet-owner-actions {
   display: flex;
@@ -281,10 +228,8 @@
 
 .tweet-edit-button:hover {
   transform: translateY(-3px);
-
   box-shadow: 3px 3px 0 #111;
 }
-
 
 /* 削除 */
 
@@ -309,20 +254,14 @@
 
 .tweet-delete-button:hover {
   background-color: #f7b8ad;
-
   transform: translateY(-3px);
-
   box-shadow: 3px 3px 0 #111;
 }
 
-
-/* =========================
-   戻る
-========================= */
+/* 戻る*/
 
 .tweet-show-back {
   margin-top: 55px;
-
   text-align: center;
 }
 
@@ -355,10 +294,7 @@
   box-shadow: 3px 3px 0 #111;
 }
 
-
-/* =========================
-   スマホ
-========================= */
+/* スマホ版 */
 
 @media screen and (max-width: 650px) {
 

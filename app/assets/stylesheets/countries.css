@@ -1,6 +1,4 @@
-/* =========================
-   国別ページ 全体
-========================= */
+/* 国別ページ 全体 */
 
 .country-page {
   width: 92%;
@@ -10,10 +8,7 @@
   color: #111;
 }
 
-
-/* =========================
-   国名
-========================= */
+/* 国名 */
 
 .country-header {
   text-align: center;
@@ -49,9 +44,7 @@
   font-size: 24px;
 }
 
-/* =========================
-   この国について
-========================= */
+/* この国について */
 
 .country-about {
   max-width: none;
@@ -86,9 +79,7 @@
   margin: 0;
 }
 
-/* =========================
-   情報カード
-========================= */
+/* 情報カード */
 
 .country-card-grid {
   display: grid;
@@ -139,11 +130,7 @@
   line-height: 1.9;
 }
 
-
-
-/* =========================
-   すべてのカード共通
-========================= */
+/* すべてのカード共通 */
 
 .country-card,
 .country-wide-card {
@@ -157,18 +144,13 @@
   transition: 0.25s;
 }
 
-
 /* ホバーも全部共通 */
-
 .country-card:hover,
 .country-wide-card:hover {
   transform: translateY(-5px);
 }
 
-
-/* =========================
-   カードの色を統一
-========================= */
+/* カードの色を統一*/
 
 .country-card-price,
 .country-card-visa,
@@ -179,9 +161,7 @@
   background-color: #fffdf8;
 }
 
-/* =========================
-   横長カード
-========================= */
+/* 横長カード */
 
 .country-wide-card {
   margin-top: 28px;
@@ -220,10 +200,7 @@
   line-height: 1.9;
 }
 
-
-/* =========================
-   参考リンク
-========================= */
+/* 参考リンク */
 
 .country-link-area {
   margin-top: 45px;
@@ -260,7 +237,6 @@
   line-height: 1.8;
 }
 
-
 /* 公式サイトリンク */
 
 .country-official-link {
@@ -292,10 +268,7 @@
   transform: rotate(-2deg);
 }
 
-
-/* =========================
-   戻るボタン
-========================= */
+/* 戻るボタン */
 
 .country-back-area {
   text-align: center;
@@ -339,9 +312,7 @@
   transform: rotate(-5deg) scale(1.05);
 }
 
-/* =========================
-   スマホ
-========================= */
+/* スマホ版　*/
 
 @media screen and (max-width: 768px) {
 
@@ -371,9 +342,7 @@
 
 }
 
-/* =========================
-   メイン写真
-========================= */
+/* メイン写真 */
 
 .country-header {
   position: relative;
@@ -397,10 +366,7 @@
   justify-content: center;
 }
 
-
-/* =========================
-   中央の白いカード
-========================= */
+/* 中央の白いカード */
 
 .country-title-card {
   position: relative;
@@ -423,7 +389,6 @@
   transform: rotate(-1deg);
 }
 
-
 .country-title-line {
   width: 85%;
 
@@ -432,10 +397,7 @@
   border-top: 3px dashed #f1846e;
 }
 
-
-
 /* 右の Good Trip */
-
 .country-photo-doodle {
   position: absolute;
 
@@ -456,9 +418,7 @@
 }
 
 
-/* =========================
-   交通・注意点を横並び
-========================= */
+/* 交通・注意点を横並び*/
 
 .country-wide-grid {
   display: grid;
@@ -469,7 +429,6 @@
 
   margin-top: 28px;
 }
-
 
 .country-wide-grid .country-wide-card {
   margin-top: 0;

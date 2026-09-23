@@ -1,6 +1,4 @@
-/* =========================
-   投稿編集ページ
-========================= */
+/* 投稿編集ページ */
 
 .edit-post-page {
   width: 100%;
@@ -17,14 +15,10 @@
   color: #111;
 }
 
-
-/* =========================
-   タイトル
-========================= */
+/* タイトル */
 
 .edit-post-heading {
   text-align: center;
-
   margin-bottom: 40px;
 }
 
@@ -50,14 +44,10 @@
 
 .edit-post-subtitle {
   font-size: 16px;
-
   line-height: 1.8;
 }
 
-
-/* =========================
-   編集カード
-========================= */
+/* 編集カード */
 
 .edit-post-card {
   width: 90%;
@@ -77,10 +67,7 @@
   box-shadow: 9px 9px 0 #A1F7DC;
 }
 
-
-/* =========================
-   各項目
-========================= */
+/* 各項目 */
 
 .edit-post-field {
   margin-bottom: 30px;
@@ -98,10 +85,7 @@
   font-weight: 800;
 }
 
-
-/* =========================
-   入力欄
-========================= */
+/* 入力欄 */
 
 .edit-post-input,
 .edit-post-textarea {
@@ -137,7 +121,6 @@
 
 .edit-post-textarea {
   min-height: 120px;
-
   resize: vertical;
 }
 
@@ -145,17 +128,12 @@
   min-height: 80px;
 }
 
-
 /* select */
-
 select.edit-post-input {
   cursor: pointer;
 }
 
-
-/* =========================
-   現在の画像
-========================= */
+/* 現在の画像 */
 
 .current-image-area {
   width: 100%;
@@ -177,10 +155,7 @@ select.edit-post-input {
   display: block;
 }
 
-
-/* =========================
-   写真削除
-========================= */
+/* 写真削除 */
 
 .remove-image-area {
   display: flex !important;
@@ -199,14 +174,10 @@ select.edit-post-input {
 .remove-image-area input {
   width: 18px;
   height: 18px;
-
   accent-color: #f1846e;
 }
 
-
-/* =========================
-   写真アップロード
-========================= */
+/* 写真アップロード */
 
 .edit-image-upload {
   padding: 25px;
@@ -221,9 +192,7 @@ select.edit-post-input {
 
 .edit-image-upload p {
   margin-bottom: 15px;
-
   font-size: 14px;
-
   color: #666;
 }
 
@@ -231,30 +200,22 @@ select.edit-post-input {
   font-family: "Zen Maru Gothic", sans-serif;
 }
 
-
-/* =========================
-   タグ
-========================= */
+/* タグ*/
 
 .edit-post-tag-list {
   display: flex;
-
   flex-wrap: wrap;
-
   gap: 12px;
 }
 
 .edit-post-tag {
   position: relative;
-
   cursor: pointer;
 }
 
 .edit-post-tag input {
   position: absolute;
-
   opacity: 0;
-
   pointer-events: none;
 }
 
@@ -275,26 +236,19 @@ select.edit-post-input {
 
 .edit-post-tag span:hover {
   background-color: #fff0ed;
-
   transform: translateY(-2px);
 }
 
 .edit-post-tag input:checked + span {
   background-color: #A1F7DC;
-
   box-shadow: 3px 3px 0 #111;
-
   transform: translateY(-2px);
 }
 
-
-/* =========================
-   更新ボタン
-========================= */
+/* 更新ボタン */
 
 .edit-post-actions {
   margin-top: 45px;
-
   text-align: center;
 }
 
@@ -322,18 +276,13 @@ select.edit-post-input {
 
 .edit-post-submit:hover {
   transform: rotate(-2deg) scale(1.06);
-
   box-shadow: 5px 5px 0 #111;
 }
 
-
-/* =========================
-   戻る
-========================= */
+/* 戻る */
 
 .edit-post-back {
   margin-top: 55px;
-
   text-align: center;
 }
 
@@ -360,16 +309,11 @@ select.edit-post-input {
 
 .edit-post-back-button:hover {
   background-color: #A1F7DC;
-
   transform: translateY(-3px);
-
   box-shadow: 3px 3px 0 #111;
 }
 
-
-/* =========================
-   スマホ
-========================= */
+/* スマホ版*/
 
 @media screen and (max-width: 650px) {
 
