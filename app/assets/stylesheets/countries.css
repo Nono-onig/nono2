@@ -433,3 +433,25 @@
 .country-wide-grid .country-wide-card {
   margin-top: 0;
 }
+
+/* 言語切り替えリンク */
+.country-language-switch {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px;
+}
+
+.country-language-link {
+  display: inline-block;
+  color: #276b82;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #276b82;
+  border-radius: 20px;
+  padding: 8px 16px;
+  transition: background-color 0.2s ease;
+}
+
+.country-language-link:hover {
+  background-color: #eaf5f8;
+}

@@ -1,7 +1,9 @@
 class CountriesController < ApplicationController
-
- def show 
+  def show
     @country = Country.find(params[:id])
     @tweets = @country.tweets
- end
+
+    # locale=en の場合は英語版を表示
+    @english = params[:locale] == "en"
+  end
 end

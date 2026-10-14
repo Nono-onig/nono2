@@ -194,6 +194,7 @@
   padding: 50px 70px;
   border: 3px solid #111;
   border-radius: 50px;
+  /* グラデーションバックグラウンド */
   background: linear-gradient(135deg, #ffd8dc, #f7efff, #dbeeff);
   box-shadow: 7px 7px 0 #111;
 }
@@ -228,6 +229,7 @@
   padding: 45px 30px;
   border: 3px solid #111;
   border-radius: 999px;
+  /* グラデーションバックグラウンド */
   background: linear-gradient(135deg, #ffd3d9, #f1e5ff, #d5edff);
   box-shadow: 7px 7px 0 #111;
 }
@@ -276,6 +278,7 @@
   font-size: 20px;
   font-weight: 800;
   line-height: 1.6;
+  
   /* box-shadow: 5px 5px 0 #111; */
   transition: 0.3s; 
 }

@@ -2,9 +2,7 @@ class TweetsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create]
 
 
-  # =========================
   # トップページ
-  # =========================
   def index
     @tweets = Tweet.all
 
