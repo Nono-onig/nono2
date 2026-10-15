@@ -40,7 +40,7 @@ Country.create!(
         transportation_en: "Domestic flights, intercity buses, trains on selected routes, ferries, and rental cars are common options. Renting a car can be useful for exploring rural areas, but allow extra time for winding roads and long distances.",
         cautions_en: "Weather can change quickly, especially in mountainous areas. Follow local hiking and water-safety advice, check road conditions, and protect yourself from strong ultraviolet radiation. If driving, remember that vehicles travel on the left. Follow local laws and official travel advice."
 )
-)
+
 
 Country.create!(
   country: "ベトナム",
