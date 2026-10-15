@@ -29,16 +29,22 @@ Country.create!(
 
   cautions: "ニュージーランドではお酒もタバコも18歳以上からです。タバコに関しては特に注意が必要で、ニュージーランドでは特に指定の無い限り、室内環境での喫煙(電子タバコも含む)は法律により禁止されています。
              また、車のシートベルトの違反には罰金が課されますが、日本と異なり罰則は運転手ではなく違反者にかかります。"
-
-             
+   
   country_en: "New Zealand",
-        description_en: "New Zealand is an island country in the southwestern Pacific Ocean, known for its beautiful natural landscapes, mountains, lakes, beaches, and unique wildlife. Wellington is the capital, while Auckland is the largest city. Popular destinations include Queenstown, Rotorua, Milford Sound, and the national parks.",
-        price_en: "New Zealand can be relatively expensive, especially for accommodation, dining, and activities in popular tourist areas. Costs vary by season and travel style. The local currency is the New Zealand dollar (NZD). Check current exchange rates and book accommodation and popular activities in advance.",
-        visa_timing_en: "Japanese passport holders visiting New Zealand for eligible short-term tourism generally need an NZeTA before travelling and may be eligible for visa-waiver entry, subject to the applicable conditions. An International Visitor Conservation and Tourism Levy (IVL) may also apply. Check the official New Zealand immigration website for the latest requirements before departure.",
-        preparation_en: "Check passport validity, apply for an NZeTA if required, and confirm any applicable entry declarations. Prepare accommodation details, return or onward travel information, and travel insurance before departure.",
-        useful_items_en: "Layered clothing, a waterproof jacket, comfortable walking shoes, sunscreen, insect repellent, and a suitable power adapter. Bring warm clothing for mountain areas and cooler seasons.",
-        transportation_en: "Domestic flights, intercity buses, trains on selected routes, ferries, and rental cars are common options. Renting a car can be useful for exploring rural areas, but allow extra time for winding roads and long distances.",
-        cautions_en: "Weather can change quickly, especially in mountainous areas. Follow local hiking and water-safety advice, check road conditions, and protect yourself from strong ultraviolet radiation. If driving, remember that vehicles travel on the left. Follow local laws and official travel advice."
+
+  description_en: "New Zealand is an island country in the southwestern Pacific Ocean, known for its beautiful natural landscapes, mountains, lakes, beaches, and unique wildlife. Wellington is the capital, while Auckland is the largest city. Popular destinations include Queenstown, Rotorua, Milford Sound, and the national parks.",
+        
+  price_en: "New Zealand can be relatively expensive, especially for accommodation, dining, and activities in popular tourist areas. Costs vary by season and travel style. The local currency is the New Zealand dollar (NZD). Check current exchange rates and book accommodation and popular activities in advance.",
+        
+  visa_timing_en: "Japanese passport holders visiting New Zealand for eligible short-term tourism generally need an NZeTA before travelling and may be eligible for visa-waiver entry, subject to the applicable conditions. An International Visitor Conservation and Tourism Levy (IVL) may also apply. Check the official New Zealand immigration website for the latest requirements before departure.",
+        
+  preparation_en: "Check passport validity, apply for an NZeTA if required, and confirm any applicable entry declarations. Prepare accommodation details, return or onward travel information, and travel insurance before departure.",
+        
+  useful_items_en: "Layered clothing, a waterproof jacket, comfortable walking shoes, sunscreen, insect repellent, and a suitable power adapter. Bring warm clothing for mountain areas and cooler seasons.",
+        
+  transportation_en: "Domestic flights, intercity buses, trains on selected routes, ferries, and rental cars are common options. Renting a car can be useful for exploring rural areas, but allow extra time for winding roads and long distances.",
+        
+  cautions_en: "Weather can change quickly, especially in mountainous areas. Follow local hiking and water-safety advice, check road conditions, and protect yourself from strong ultraviolet radiation. If driving, remember that vehicles travel on the left. Follow local laws and official travel advice."
 )
 
 
@@ -70,13 +76,20 @@ Country.create!(
              また、観光地やバイクタクシー乗車中はスリやひったくりに注意し、スマホストラップを活用する、カラビナなどで財布をバックに繋いでおく、などの防犯対策をおすすめします。"
 
    country_en: "Vietnam",
-        description_en: "Vietnam is a Southeast Asian country known for its vibrant cities, historic towns, beaches, and distinctive cuisine. Hanoi is the capital, while Ho Chi Minh City is the largest city. Popular destinations include Ha Long Bay, Hoi An, and Da Nang. Travel times and flight prices depend on the departure airport, season, and airline.",
-        price_en: "Costs vary by destination and travel style. Street food and local restaurants are generally affordable, while hotels and tourist activities range from budget to luxury. The local currency is the Vietnamese dong (VND). Check current exchange rates before departure.",
-        visa_timing_en: "Japanese ordinary passport holders are generally eligible for visa-free stays of up to 45 days under Vietnam's current exemption policy. Longer stays or other travel purposes may require an e-visa or another visa. Entry conditions can change, so confirm the latest requirements through official Vietnamese immigration sources before booking.",
-        preparation_en: "Check passport validity, return or onward travel arrangements, accommodation details, and any entry requirements. Keep digital and paper copies of important travel documents.",
-        useful_items_en: "Lightweight clothing, comfortable walking shoes, sunscreen, insect repellent, a reusable water bottle, and a suitable power adapter.",
-        transportation_en: "Transportation options include domestic flights, intercity trains, long-distance buses, taxis, ride-hailing services, and local buses. Traffic can be busy in major cities, so allow extra time for transfers.",
-        cautions_en: "Road traffic can be challenging, especially for pedestrians. Protect valuables in crowded places, use reputable transport providers, and take care with food and drinking water. Follow local laws and check current travel advice."
+  
+   description_en: "Vietnam is a Southeast Asian country known for its vibrant cities, historic towns, beaches, and distinctive cuisine. Hanoi is the capital, while Ho Chi Minh City is the largest city. Popular destinations include Ha Long Bay, Hoi An, and Da Nang. Travel times and flight prices depend on the departure airport, season, and airline.",
+        
+   price_en: "Costs vary by destination and travel style. Street food and local restaurants are generally affordable, while hotels and tourist activities range from budget to luxury. The local currency is the Vietnamese dong (VND). Check current exchange rates before departure.",
+        
+   visa_timing_en: "Japanese ordinary passport holders are generally eligible for visa-free stays of up to 45 days under Vietnam's current exemption policy. Longer stays or other travel purposes may require an e-visa or another visa. Entry conditions can change, so confirm the latest requirements through official Vietnamese immigration sources before booking.",
+        
+   preparation_en: "Check passport validity, return or onward travel arrangements, accommodation details, and any entry requirements. Keep digital and paper copies of important travel documents.",
+        
+   useful_items_en: "Lightweight clothing, comfortable walking shoes, sunscreen, insect repellent, a reusable water bottle, and a suitable power adapter.",
+        
+   transportation_en: "Transportation options include domestic flights, intercity trains, long-distance buses, taxis, ride-hailing services, and local buses. Traffic can be busy in major cities, so allow extra time for transfers.",
+        
+   cautions_en: "Road traffic can be challenging, especially for pedestrians. Protect valuables in crowded places, use reputable transport providers, and take care with food and drinking water. Follow local laws and check current travel advice."
 
 )
 
@@ -154,13 +167,20 @@ Country.create!(
              また、スコールと呼ばれる急な大雨が降ることがあるため、折りたたみ傘があると便利です。"
 
   country_en: "Malaysia",
-        description_en: "Malaysia combines modern cities, tropical rainforests, islands, and a multicultural food scene. Kuala Lumpur is the capital and a major transport hub. Popular destinations include Penang, Langkawi, Malacca, and parts of Malaysian Borneo.",
-        price_en: "Costs depend on the destination and travel style. Hawker centres and local restaurants can offer good value, while hotels and island activities vary widely in price. The local currency is the Malaysian ringgit (MYR). Check current exchange rates before travelling.",
-        visa_timing_en: "Japanese passport holders generally do not need a visa for short tourist visits within the permitted period. Travellers may need to complete the Malaysia Digital Arrival Card (MDAC) before arrival, subject to applicable exemptions and current rules. Check the official Malaysian immigration website for the latest requirements and deadlines.",
-        preparation_en: "Check passport validity, visa-exemption conditions, and whether you must submit the Malaysia Digital Arrival Card. Keep accommodation details and onward travel information available.",
-        useful_items_en: "Lightweight clothing, an umbrella or light rain jacket, sunscreen, insect repellent, comfortable shoes, and modest clothing for religious sites.",
-        transportation_en: "Kuala Lumpur has rail services, buses, and taxis. Intercity buses, trains, domestic flights, and ferries connect many other destinations. Check schedules in advance for islands and rural areas.",
-        cautions_en: "The climate is hot and humid, with heavy rain possible. Dress respectfully at religious sites, protect valuables, and use licensed or reputable transport. Check local rules and travel advice before departure."
+        
+  description_en: "Malaysia combines modern cities, tropical rainforests, islands, and a multicultural food scene. Kuala Lumpur is the capital and a major transport hub. Popular destinations include Penang, Langkawi, Malacca, and parts of Malaysian Borneo.",
+        
+  price_en: "Costs depend on the destination and travel style. Hawker centres and local restaurants can offer good value, while hotels and island activities vary widely in price. The local currency is the Malaysian ringgit (MYR). Check current exchange rates before travelling.",
+        
+  visa_timing_en: "Japanese passport holders generally do not need a visa for short tourist visits within the permitted period. Travellers may need to complete the Malaysia Digital Arrival Card (MDAC) before arrival, subject to applicable exemptions and current rules. Check the official Malaysian immigration website for the latest requirements and deadlines.",
+        
+  preparation_en: "Check passport validity, visa-exemption conditions, and whether you must submit the Malaysia Digital Arrival Card. Keep accommodation details and onward travel information available.",
+        
+  useful_items_en: "Lightweight clothing, an umbrella or light rain jacket, sunscreen, insect repellent, comfortable shoes, and modest clothing for religious sites.",
+        
+  transportation_en: "Kuala Lumpur has rail services, buses, and taxis. Intercity buses, trains, domestic flights, and ferries connect many other destinations. Check schedules in advance for islands and rural areas.",
+        
+  cautions_en: "The climate is hot and humid, with heavy rain possible. Dress respectfully at religious sites, protect valuables, and use licensed or reputable transport. Check local rules and travel advice before departure."
       
 )
 
