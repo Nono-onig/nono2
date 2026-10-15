@@ -28,22 +28,16 @@ Country.create!(
   transportation: "レンタカー(日本と同じ左側通行)、長距離バス、短距離バス(オークランドなどの大都市ではバス路線が充実)、主要都市間を運行する飛行機、列車、北島と南島を繋ぐフェリーなど",
 
   cautions: "ニュージーランドではお酒もタバコも18歳以上からです。タバコに関しては特に注意が必要で、ニュージーランドでは特に指定の無い限り、室内環境での喫煙(電子タバコも含む)は法律により禁止されています。
-             また、車のシートベルトの違反には罰金が課されますが、日本と異なり罰則は運転手ではなく違反者にかかります。"
+             また、車のシートベルトの違反には罰金が課されますが、日本と異なり罰則は運転手ではなく違反者にかかります。",
    
   country_en: "New Zealand",
 
-  description_en: "New Zealand is an island country in the southwestern Pacific Ocean, known for its beautiful natural landscapes, mountains, lakes, beaches, and unique wildlife. Wellington is the capital, while Auckland is the largest city. Popular destinations include Queenstown, Rotorua, Milford Sound, and the national parks.",
-        
-  price_en: "New Zealand can be relatively expensive, especially for accommodation, dining, and activities in popular tourist areas. Costs vary by season and travel style. The local currency is the New Zealand dollar (NZD). Check current exchange rates and book accommodation and popular activities in advance.",
-        
-  visa_timing_en: "Japanese passport holders visiting New Zealand for eligible short-term tourism generally need an NZeTA before travelling and may be eligible for visa-waiver entry, subject to the applicable conditions. An International Visitor Conservation and Tourism Levy (IVL) may also apply. Check the official New Zealand immigration website for the latest requirements before departure.",
-        
-  preparation_en: "Check passport validity, apply for an NZeTA if required, and confirm any applicable entry declarations. Prepare accommodation details, return or onward travel information, and travel insurance before departure.",
-        
-  useful_items_en: "Layered clothing, a waterproof jacket, comfortable walking shoes, sunscreen, insect repellent, and a suitable power adapter. Bring warm clothing for mountain areas and cooler seasons.",
-        
-  transportation_en: "Domestic flights, intercity buses, trains on selected routes, ferries, and rental cars are common options. Renting a car can be useful for exploring rural areas, but allow extra time for winding roads and long distances.",
-        
+  description_en: "New Zealand is an island country in the southwestern Pacific Ocean, known for its beautiful natural landscapes, mountains, lakes, beaches, and unique wildlife. Wellington is the capital, while Auckland is the largest city. Popular destinations include Queenstown, Rotorua, Milford Sound, and the national parks.",       
+  price_en: "New Zealand can be relatively expensive, especially for accommodation, dining, and activities in popular tourist areas. Costs vary by season and travel style. The local currency is the New Zealand dollar (NZD). Check current exchange rates and book accommodation and popular activities in advance.",    
+  visa_timing_en: "Japanese passport holders visiting New Zealand for eligible short-term tourism generally need an NZeTA before travelling and may be eligible for visa-waiver entry, subject to the applicable conditions. An International Visitor Conservation and Tourism Levy (IVL) may also apply. Check the official New Zealand immigration website for the latest requirements before departure.",   
+  preparation_en: "Check passport validity, apply for an NZeTA if required, and confirm any applicable entry declarations. Prepare accommodation details, return or onward travel information, and travel insurance before departure.",  
+  useful_items_en: "Layered clothing, a waterproof jacket, comfortable walking shoes, sunscreen, insect repellent, and a suitable power adapter. Bring warm clothing for mountain areas and cooler seasons.",      
+  transportation_en: "Domestic flights, intercity buses, trains on selected routes, ferries, and rental cars are common options. Renting a car can be useful for exploring rural areas, but allow extra time for winding roads and long distances.",       
   cautions_en: "Weather can change quickly, especially in mountainous areas. Follow local hiking and water-safety advice, check road conditions, and protect yourself from strong ultraviolet radiation. If driving, remember that vehicles travel on the left. Follow local laws and official travel advice."
 )
 
@@ -73,22 +67,16 @@ Country.create!(
   transportation: "都市間の移動には国内線が便利です。ハノイやホーチミンでは路線バスやタクシー、配車アプリが利用できます。都市間を移動する場合は長距離バスや寝台列車も利用できます。",
 
   cautions: "ベトナムでは道路を走るバイクが非常に多いため、道路を横断するときは周囲の交通に十分注意しましょう。
-             また、観光地やバイクタクシー乗車中はスリやひったくりに注意し、スマホストラップを活用する、カラビナなどで財布をバックに繋いでおく、などの防犯対策をおすすめします。"
+             また、観光地やバイクタクシー乗車中はスリやひったくりに注意し、スマホストラップを活用する、カラビナなどで財布をバックに繋いでおく、などの防犯対策をおすすめします。",
 
    country_en: "Vietnam",
   
-   description_en: "Vietnam is a Southeast Asian country known for its vibrant cities, historic towns, beaches, and distinctive cuisine. Hanoi is the capital, while Ho Chi Minh City is the largest city. Popular destinations include Ha Long Bay, Hoi An, and Da Nang. Travel times and flight prices depend on the departure airport, season, and airline.",
-        
-   price_en: "Costs vary by destination and travel style. Street food and local restaurants are generally affordable, while hotels and tourist activities range from budget to luxury. The local currency is the Vietnamese dong (VND). Check current exchange rates before departure.",
-        
-   visa_timing_en: "Japanese ordinary passport holders are generally eligible for visa-free stays of up to 45 days under Vietnam's current exemption policy. Longer stays or other travel purposes may require an e-visa or another visa. Entry conditions can change, so confirm the latest requirements through official Vietnamese immigration sources before booking.",
-        
-   preparation_en: "Check passport validity, return or onward travel arrangements, accommodation details, and any entry requirements. Keep digital and paper copies of important travel documents.",
-        
+   description_en: "Vietnam is a Southeast Asian country known for its vibrant cities, historic towns, beaches, and distinctive cuisine. Hanoi is the capital, while Ho Chi Minh City is the largest city. Popular destinations include Ha Long Bay, Hoi An, and Da Nang. Travel times and flight prices depend on the departure airport, season, and airline.",  
+   price_en: "Costs vary by destination and travel style. Street food and local restaurants are generally affordable, while hotels and tourist activities range from budget to luxury. The local currency is the Vietnamese dong (VND). Check current exchange rates before departure.",       
+   visa_timing_en: "Japanese ordinary passport holders are generally eligible for visa-free stays of up to 45 days under Vietnam's current exemption policy. Longer stays or other travel purposes may require an e-visa or another visa. Entry conditions can change, so confirm the latest requirements through official Vietnamese immigration sources before booking.", 
+   preparation_en: "Check passport validity, return or onward travel arrangements, accommodation details, and any entry requirements. Keep digital and paper copies of important travel documents.",      
    useful_items_en: "Lightweight clothing, comfortable walking shoes, sunscreen, insect repellent, a reusable water bottle, and a suitable power adapter.",
-        
    transportation_en: "Transportation options include domestic flights, intercity trains, long-distance buses, taxis, ride-hailing services, and local buses. Traffic can be busy in major cities, so allow extra time for transfers.",
-        
    cautions_en: "Road traffic can be challenging, especially for pedestrians. Protect valuables in crowded places, use reputable transport providers, and take care with food and drinking water. Follow local laws and check current travel advice."
 
 )
@@ -123,7 +111,7 @@ link: "https://www.evisa.gov.kh/",
 
   cautions: "アンコール遺跡群は日差しが強く、遺跡の階段を長時間歩くこともあるため、熱中症対策が重要です。
              また、観光地や市場ではスリやひったくりに注意してください。
-             タイとの国境周辺には情勢が不安定な地域があるため、国境付近への旅行を計画する場合は最新の海外安全情報を必ず確認してください。"
+             タイとの国境周辺には情勢が不安定な地域があるため、国境付近への旅行を計画する場合は最新の海外安全情報を必ず確認してください。",
   
   country_en: "Cambodia",
         description_en: "Cambodia is a Southeast Asian country famous for Angkor Wat, historic temples, and the capital city of Phnom Penh. Siem Reap is a popular base for exploring the Angkor archaeological complex, while the country also has rural landscapes and coastal destinations.",
@@ -164,22 +152,16 @@ Country.create!(
   transportation: "クアラルンプールではMRT、LRT、モノレールなどの公共交通機関が充実しています。配車アプリも便利です。都市間では長距離バスや国内線を利用できます。",
 
   cautions: "マレーシアはイスラム教を国の宗教としているため、モスクなどの宗教施設を訪れる際は服装やマナーに注意が必要です。
-             また、スコールと呼ばれる急な大雨が降ることがあるため、折りたたみ傘があると便利です。"
+             また、スコールと呼ばれる急な大雨が降ることがあるため、折りたたみ傘があると便利です。",
 
   country_en: "Malaysia",
         
   description_en: "Malaysia combines modern cities, tropical rainforests, islands, and a multicultural food scene. Kuala Lumpur is the capital and a major transport hub. Popular destinations include Penang, Langkawi, Malacca, and parts of Malaysian Borneo.",
-        
   price_en: "Costs depend on the destination and travel style. Hawker centres and local restaurants can offer good value, while hotels and island activities vary widely in price. The local currency is the Malaysian ringgit (MYR). Check current exchange rates before travelling.",
-        
   visa_timing_en: "Japanese passport holders generally do not need a visa for short tourist visits within the permitted period. Travellers may need to complete the Malaysia Digital Arrival Card (MDAC) before arrival, subject to applicable exemptions and current rules. Check the official Malaysian immigration website for the latest requirements and deadlines.",
-        
   preparation_en: "Check passport validity, visa-exemption conditions, and whether you must submit the Malaysia Digital Arrival Card. Keep accommodation details and onward travel information available.",
-        
   useful_items_en: "Lightweight clothing, an umbrella or light rain jacket, sunscreen, insect repellent, comfortable shoes, and modest clothing for religious sites.",
-        
   transportation_en: "Kuala Lumpur has rail services, buses, and taxis. Intercity buses, trains, domestic flights, and ferries connect many other destinations. Check schedules in advance for islands and rural areas.",
-        
   cautions_en: "The climate is hot and humid, with heavy rain possible. Dress respectfully at religious sites, protect valuables, and use licensed or reputable transport. Check local rules and travel advice before departure."
       
 )
@@ -209,7 +191,7 @@ Country.create!(
   transportation: "ソウルでは地下鉄とバスが非常に便利です。都市間移動にはKTXなどの高速鉄道や高速バスを利用できます。タクシーや配車アプリも利用できます。",
 
   cautions: "韓国では年上の方を敬う文化が根強いため、優先席は必要な方のために空けておきましょう。
-             地下鉄やバスでは「気候同行カード」などの交通カードが便利です。バスは運転が比較的荒いため、乗車したらすぐに吊り革につかまるか着席しましょう。"
+             地下鉄やバスでは「気候同行カード」などの交通カードが便利です。バスは運転が比較的荒いため、乗車したらすぐに吊り革につかまるか着席しましょう。",
              
    country_en: "South Korea",
         description_en: "South Korea is known for its lively cities, historic palaces, mountain scenery, and contemporary culture. Seoul is the capital and a major destination for food, shopping, and museums. Busan, Jeju Island, and Gyeongju are also popular with visitors.",
@@ -251,7 +233,7 @@ Country.create!(
 
   cautions: "中国ではキャッシュレス決済が広く普及しているため、AlipayやWeChat Payなどを事前に準備しておくと便利です。
              また、日本で普段利用しているGoogle、LINEなどのサービスが利用できない場合があります。
-             インターネット環境や決済方法について、出発前に準備しておくことをおすすめします。"
+             インターネット環境や決済方法について、出発前に準備しておくことをおすすめします。",
 
   country_en: "China",
         description_en: "China is a large and diverse country with historic landmarks, major modern cities, varied landscapes, and regional cuisines. Beijing is known for its imperial history, Shanghai for its skyline, and other destinations offer mountains, ancient towns, and cultural heritage sites.",
@@ -300,7 +282,7 @@ Country.create!(
 
   cautions: "地下鉄のトイレは有料ですが、VISAなどのクレジットカードタッチで利用できす場所がほとんどです。
              また、ロンドンなどの観光地ではスリが発生することがあるため、スマートフォンや財布などの貴重品は鞄につないでおくなどの防犯対策をするのがおすすめです。
-             天候が変わりやすいため、雨具を持っておくと安心です。"
+             天候が変わりやすいため、雨具を持っておくと安心です。",
 
      country_en: "United Kingdom",
         description_en: "The United Kingdom includes England, Scotland, Wales, and Northern Ireland. London is the capital and a major destination for museums, theatres, and historic landmarks. Other popular destinations include Edinburgh, Oxford, Bath, and the countryside.",
@@ -345,7 +327,7 @@ Country.create!(
 
   cautions: "ノルウェーは物価が非常に高いため、食費や交通費などをあらかじめ計算しておくことをおすすめします。
              冬は日照時間が短く、地域によっては非常に寒くなるため、防寒対策が重要です。
-             また、フィヨルドや山岳地域を訪れる際には、天候の急変や足元に十分注意しましょう。"
+             また、フィヨルドや山岳地域を訪れる際には、天候の急変や足元に十分注意しましょう。",
 
  country_en: "Norway",
         description_en: "Norway is known for its fjords, mountains, coastal scenery, and northern lights. Oslo is the capital, while Bergen is a popular gateway to fjord country. Outdoor activities and scenic rail journeys are major attractions, particularly during the summer and winter seasons.",
@@ -394,7 +376,7 @@ Country.create!(
                 ヴェネツィアでは水上バスが主要な交通手段です。",
 
   cautions: "ローマ、ミラノ、フィレンツェ、ヴェネツィアなどの観光地では、スリや置き引きに注意しましょう。特に混雑した公共交通機関や観光スポットでは、バッグを体の前で持つなど、貴重品の管理を徹底することが大切です。
-             また、教会や宗教施設を訪れる際は、露出の多い服装が禁止されている場合があるため、肩や膝が隠れる服装を用意しておくと安心です。"
+             また、教会や宗教施設を訪れる際は、露出の多い服装が禁止されている場合があるため、肩や膝が隠れる服装を用意しておくと安心です。",
              
   country_en: "Italy",
         description_en: "Italy is known for its art, architecture, historic cities, countryside, and regional cuisine. Rome is the capital, while Florence, Venice, Milan, Naples, and many smaller towns attract visitors for their distinct history and culture.",
@@ -439,7 +421,7 @@ Country.create!(
 
   cautions: "タイでは寺院などの宗教施設を訪れる際、肩や膝が隠れる服装が求められる場合があります。
              また、暑さや強い日差しによる熱中症に注意し、こまめに水分補給をしましょう。
-             野良犬や野良猫にむやみに触れたり、食べ物を与えたりしないことも大切です。"
+             野良犬や野良猫にむやみに触れたり、食べ物を与えたりしないことも大切です。",
 
  country_en: "Thailand",
         description_en: "Thailand is known for its temples, beaches, tropical islands, and varied cuisine. Bangkok is the capital and a major transport hub. Chiang Mai, Phuket, Krabi, and other destinations offer different experiences, from cultural attractions to outdoor activities.",
@@ -492,7 +474,7 @@ Country.create!(
 
   cautions: "インドネシアでは地域によって宗教や文化が異なるため、寺院や宗教施設を訪れる際には現地の服装やマナーを守りましょう。
              寺院に入る際に肌の露出を控える必要がある場合があります。
-             水道水はそのまま飲まず、基本的にペットボトルの水を利用することをおすすめします。"
+             水道水はそのまま飲まず、基本的にペットボトルの水を利用することをおすすめします。",
 
   country_en: "Indonesia",
         description_en: "Indonesia is an archipelago in Southeast Asia with thousands of islands and a wide range of cultures and landscapes. Jakarta is a major urban centre, while Bali, Yogyakarta, and other islands are popular for beaches, temples, nature, and cultural experiences.",
